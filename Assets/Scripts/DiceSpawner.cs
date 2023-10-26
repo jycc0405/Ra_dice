@@ -8,6 +8,7 @@ public class DiceSpawner : MonoBehaviour
 {
     public GameObject DicePrefab;
     private static DiceSpawner m_instance;
+    public List<GameObject> dices;
     
     public static DiceSpawner instance
     {
@@ -47,5 +48,6 @@ public class DiceSpawner : MonoBehaviour
     {
         int num = Random.Range(0, SpawnPoint.Length);
         GameObject spawnenemyDice = Instantiate(DicePrefab, SpawnPoint[num].position, SpawnPoint[num].rotation);
+        dices.Add(spawnenemyDice);
     }
 }

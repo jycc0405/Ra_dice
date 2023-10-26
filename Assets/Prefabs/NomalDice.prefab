@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6669126059373461906}
   - component: {fileID: 8840977423253973793}
+  - component: {fileID: 883640703491478181}
   m_Layer: 0
-  m_Name: Circle (1)
+  m_Name: NomalDice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2092166767
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.6886792, g: 0.2891153, b: 0.2891153, a: 1}
@@ -84,3 +85,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &883640703491478181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494533837201877056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f955d15cb8c5124459cce8587361dd31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyList: []
+  nomalDiceDamage: 50
+  nomalDiceTimeBetAttack: 1
+  nomalDiceAttackSpeed: 0
+  bulletPrefab: {fileID: 3439951493739642893, guid: c2e7b7753dbec3447bfda0eddde8e8c0, type: 3}

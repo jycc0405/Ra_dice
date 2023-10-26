@@ -91,4 +91,10 @@ public class GameManager : MonoBehaviour
             DiceSpawner.instance.SpawnDice();
         }
     }
+
+    public void CostAdd(int addCost)
+    {
+        Point += addCost;
+        UIManager.instance.UpdatePoint(Point);
+    }
 }
